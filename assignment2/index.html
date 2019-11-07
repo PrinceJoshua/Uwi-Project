@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Info</title>
+</head>
+
+<body onload="loadData()">
+    <div class="container">
+        <div class="header">
+
+            <div><img id="image" src="/images/index.png" alt="logo"></div>
+            <div class="heading">
+                <h1>Barbados Revenue Authority</h1>
+                <h3>Vehicle Licensing and Registration System</h3>
+                <h2>All fields required</h2>
+            </div>
+            <div></div>
+        </div>
+
+        <div  class="formarea">
+            <form id="signInfo" action="public_console.html" >
+                <span class="inputDriver"> Username</span> <input type="text" id="uName" placeholder="Enter Username" name="uname"><span id="unameErr"></span>
+                <span class="inputDriver"> Password</span> <input type="text" id="passwd" placeholder="Enter Password" name="psw"><span id="passErr"></span>
+                <span></span>                
+                <button id="signIn" type="button">Sign In</button>
+                <span></span>
+                <span></span>
+                <div>
+                    <a href="#"> Forgot password?</a>
+                    <a href="registration.html">signup</a>
+                </div>
+                <span></span>
+                
+            </form>
+        </div>
+
+
+        <div class="col-12">
+            <span class="psw"> </span>
+            <span class="signup"> </span>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>   
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Registration</title>
+  </head onload="loadData()"> 
+    <body>
+    <div class="container">
+      <div class="header">
+
+        <div><img id="image" src="/images/index.png" alt="logo"></div>
+        <div class="heading">
+            <h1>Barbados Revenue Authority</h1>
+            <h3>Vehicle Licensing and Registration System</h3>
+            <h2>All fields required</h2>
+        </div>
+        <div></div>
+    </div>
+      
+      
+      
+        <div class="formarea">
+            <form id="adminInfo" action="admin_coonsole.html">
+                <span>Employee ID</span> <input id="empid"type="text" placeholder="employee iD" name="emid" required><span></span>
+                <span>Password</span><input id="password_input" type="password" placeholder="*********" name="psw" required><span></span>
+                <span></span>
+                <span>
+                  <div><button id="logbut" type="submit">Log In</button></div>
+                  <div><a href="#">Recover Password</a></div>
+                </span>
+                <span></span>
+            </form>
+        </div>
+    
+        <div class="login">
+            
+        </div>
+          <div class="col-12">
+            <div class="recover">
+              <span class="recovpws"></span>
+            </div>
+          </div>
+     
+    </div>
+
+    <script src="../scripts.js "> </script> 
+    </body>
+</html>

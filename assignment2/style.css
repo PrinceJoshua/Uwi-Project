@@ -1,0 +1,337 @@
+
+
+/*----------------------------------------------------General-------------------------------*/
+.container{
+box-sizing: border-box;
+display: grid;
+justify-content: center;
+align-items: center;
+margin: auto;
+width: 100%;
+
+}
+
+.header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 3fr 1fr;
+    text-align: center;
+    grid-gap: 2em;
+}
+
+.formarea{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+    margin: auto;
+}
+
+
+#signInfo{
+    text-align: center;
+}
+
+.container #image{
+    width: 80px;
+    height:60px;
+}
+.heading{
+    display: inline;
+    text-align: center;
+    
+}
+
+
+/*----------------------------------------------Login Page---------------------------------------------*/
+#driverInfo input{
+    padding: 5px;
+    margin: 10px; 
+    
+}
+
+#signInfo{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+}
+#signInfo input{
+    width: 100%;
+}
+#unameErr
+{
+ /* margin-right: 10px; */
+ color:red;
+}
+
+#passErr{
+    color:red;
+}
+/* 
+.container  #signIn{
+    text-align: center;
+    margin-top: 10px;
+    font-size:15px;
+}
+
+.container .psw{
+    margin-left: 40%;
+    
+}
+
+.container .signup{
+    margin-left:10%;
+} */
+
+/*------------------------------------Admin Login Page------------------------------*/
+#adminInfo{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+    text-align: right;
+}
+#adminInfo input{
+    width: 100%;
+}
+/* #adminInfo span{
+    margin-left: 40%;
+  
+}
+
+#password_input
+{
+    margin-left: 38px !important;
+}
+.recovpws{
+    margin-left: 50%;
+    
+
+}
+.container  #logbut{
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10px;
+    font-size:15px;
+} */
+/*------------------------------------------------- Registration Form-----------------------------*/
+#myForm{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+   text-align: right; 
+}
+/* .container p{
+    text-align: center;
+}
+#ID{
+
+   text-align: center; 
+}
+#LicenseId{
+    margin-left: 37px !important;
+}
+
+#FirstNameId{
+    margin-left: 42px !important;
+}
+
+#LastNameId{
+    margin-left:43px !important;
+}
+
+#Address1Id{
+    margin-left:49px !important;
+}
+
+#Address2Id{
+    margin-left:49px !important;
+}
+
+.container input{
+    padding: 5px;
+    margin-top:10px;
+
+}
+.container select{
+    padding: 5px;
+    margin-left: 73px;
+    margin-top:10px;
+}
+.container option{
+    margin-left: 20px;
+}
+
+.container .inputReg{
+    margin-left:325px;
+}
+
+ #natInfo{
+text-align: left;
+margin-left:1em; 
+margin-right:20%;
+color: red;
+}
+
+#Error{
+    text-align:left;
+    margin-left:2em;
+    margin-right:20%;
+}
+
+.container  #regis{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size:15px;
+}
+.container #cancel{
+    text-align: center;
+    margin-left: 5%;
+    margin-top:20px;
+    font-size: 15px;
+} */
+
+/*-------------------------------------------Public Console-------------------------------------------------------*/
+.flex-container1{
+    
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:5%;
+   display:flex;
+   width: 500px;
+   height: 110px;
+   justify-content: space-between;
+    background-color: teal;
+   color: aqua;
+}
+
+.flex-item #cornb{
+    font-size:16px;
+    font:bold;
+    padding:42px 16px;
+    width: 200px;
+        
+}
+.flex-item #cornd{
+    font-size:16px;
+    font:bold;
+    padding:32px 16px;
+    width:200px;
+    
+    
+
+}
+
+/*-------------------------------------------Admin Console--------------------------------------------------------*/
+.flex-container2{
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:5%;
+   display:flex;
+   flex-wrap: wrap;
+   width: 500px;
+   height: 300px;
+   justify-content: space-between;
+   
+   
+}
+
+.flex-item #nd{
+    font-size:20px;
+    font:bold;
+    padding:42px 16px;
+    width:200px;
+    
+}
+
+.flex-item #rd{
+    font-size:20px;
+    font:bold;
+    padding:42px 16px;
+    width: 200px;
+
+}
+
+.flex-item #nv{
+    font-size:20px;
+    font:bold;
+    padding:42px 16px;
+    width:200px;
+}
+
+.flex-item #rv{
+    font-size:20px;
+    font:bold;
+    padding:32px 16px;
+    width: 200px;
+}
+
+@media screen and (max-width:600 )
+{
+.container
+{
+    width:50%;
+} 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container p{
+    text-align: center;
+}
+  [class *= "col--"]
+  {
+  float: left;
+  padding: 15px;
+  border: 1px solid;
+  }
+  .col1 {width: 8.33%;}
+  .col2 {width: 16.66%;}
+  .col3 {width: 25%;}
+  .col4 {width: 33.33%;}
+  .col5 {width: 41.66%;}
+  .col6 {width: 50%;}
+  .col7 {width: 58.33%;}
+  .col8 {width: 66.66%;}
+  .col9 {width: 75%;}
+  .col10 {width: 83.33%;}
+  .col11 {width: 91.66%;}
+  .col12 {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
